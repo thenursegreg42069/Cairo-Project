@@ -11,7 +11,7 @@ mod HelloStarknet {
     #[external]
     fn Say_Hello(message: felt252) {
         let caller = get_caller_address();
-        Helloo(caller, message);
+        Hellooo(caller, message);
     }
 
 }
